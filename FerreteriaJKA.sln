@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerreteriaJKA", "FerreteriaJKA\FerreteriaJKA.csproj", "{7DA44A59-5FC6-49B7-A514-D56569956875}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC9E8EB4-A3D1-467F-B436-47BCBCB4517E} = {BC9E8EB4-A3D1-467F-B436-47BCBCB4517E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerreteriaJKA.DAL", "FerreteriaJKA.Dal\FerreteriaJKA.DAL.csproj", "{BC9E8EB4-A3D1-467F-B436-47BCBCB4517E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA44A59-5FC6-49B7-A514-D56569956875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA44A59-5FC6-49B7-A514-D56569956875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA44A59-5FC6-49B7-A514-D56569956875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA44A59-5FC6-49B7-A514-D56569956875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9E8EB4-A3D1-467F-B436-47BCBCB4517E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9E8EB4-A3D1-467F-B436-47BCBCB4517E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9E8EB4-A3D1-467F-B436-47BCBCB4517E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9E8EB4-A3D1-467F-B436-47BCBCB4517E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB35B4D7-7690-493B-B42A-C285B150512B}
+	EndGlobalSection
+EndGlobal
